@@ -7445,3 +7445,33 @@ polygon{
 .needed-btns .pick-language {
   animation: 2s ease-out 0s 1 slideInFromTop;
 }
+#call-back {
+  background: url(/images/gallery/pattern1.gif) repeat top left #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  color: #888888;
+}
+#call-back .mfp-close {
+  color:#fff
+}
+.call-back--header {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #f7931d;
+  font-weight: normal;
+}
+#call-back input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  color: #cccccc;
+  border: 1px solid #dddddd;
+  margin-bottom: 10px;
+}
+#call-back button {
+  background-color: #f7931d;
+  font-size: 17px;
+  color: #fff;
+}
