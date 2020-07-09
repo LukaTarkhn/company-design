@@ -1287,9 +1287,8 @@ section.section {
 }
 .home-section .footer-button {
   position: absolute;
-  bottom: 90px;
-  left: 50%;
-  margin-left: -12px;
+  top: 20%;
+  right: 12%;
 }
 .home-section .footer-button .btn {
   font-size: 25px;
@@ -7396,4 +7395,53 @@ polygon{
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid white;
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  width: 13vw;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-color: rgba(23, 23, 23, 0.59);
+  animation: 1s ease-out 0s 1 slideInFromTop;
+  padding: 10px;
+
+}
+.header-logo img {
+  width: 100%;
+  filter: brightness(125%);
+  animation: 1.6s ease-out 0s 1 slideInFromTop;
+}
+
+.needed-btns {
+  position: absolute;
+  width: 80px;
+  background: red;
+  right: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(23, 23, 23, 0.59);
+  animation: 1s ease-out 0s 1 slideInFromTop;
+}
+.needed-btns .livecams {
+  margin-bottom: 0;
+  animation: 2s ease-out 0s 1 slideInFromTop;
+}
+.needed-btns .soc-buttons {
+  width: 100%;
+  animation: 2s ease-out 0s 1 slideInFromTop;
+}
+.needed-btns .pick-language {
+  animation: 2s ease-out 0s 1 slideInFromTop;
 }
