@@ -569,7 +569,6 @@ $(document).ready(function() {
 // videos
 $(document).ready(function() {
 	$('.popup-youtube-1, .popup-youtube-2, .popup-360-1, .popup-360-2, .popup-360-3, .popup-cam-1, .popup-cam-2').magnificPopup({
-		disableOn: 700,
 		type: 'iframe',
 		mainClass: 'mfp-fade',
 		removalDelay: 160,
